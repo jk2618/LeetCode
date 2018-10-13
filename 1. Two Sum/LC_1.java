@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 public class LC_1 {
     public static int[] twoSum(int[] nums, int target) {
         int[] result = new int[]{-1, -1};
