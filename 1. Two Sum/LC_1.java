@@ -5,6 +5,7 @@ public class LC_1 {
         int[] result = new int[]{-1, -1};
 
         HashMap<Integer, Integer> visited = new HashMap<>();
+        
         for (int i =0; i < nums.length; i++) {
             if (visited.containsKey(target - nums[i])) {
                 result[0] = visited.get(target - nums[i]);
@@ -15,3 +16,4 @@ public class LC_1 {
         }
         return result;
     }
+}
