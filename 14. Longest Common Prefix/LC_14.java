@@ -19,3 +19,4 @@ public class LC_14 {
         }
         return LCP;
     }
+}
