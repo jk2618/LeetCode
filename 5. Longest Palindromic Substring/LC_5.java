@@ -6,10 +6,10 @@ public class LC_5 {
 
         int length = str.length();
         // upon initialization, Java sets default values to false
-        boolean[][] isPalindrome = new boolean[length][length]; 
+        boolean[][] isPalindrome = new boolean[length][length];
         int left = 0;
         int right = 0;
-        
+
         for (int j = 1; j < length; j++) {
             for (int i = 0; i < j; i++) {
                 boolean isInnerPalindrome = isPalindrome[i + 1][j - 1] || j - i <= 2;
@@ -26,3 +26,4 @@ public class LC_5 {
         }
         return str.substring(left, right + 1);
     }
+}
