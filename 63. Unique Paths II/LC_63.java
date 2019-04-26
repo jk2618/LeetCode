@@ -32,3 +32,4 @@ public class LC_63 {
         }
         return pathObstacles[height - 1][width - 1];
     }
+}
