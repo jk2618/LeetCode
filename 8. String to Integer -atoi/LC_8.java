@@ -19,6 +19,7 @@ public class LC_8 {
             if (str.charAt(i) < '0' || str.charAt(i) > '9') {
                 break;
             }
+            // why do we subtract '0' ?
             int digit = (int) (str.charAt(i) - '0');
             result = result * 10 + digit;
         }
@@ -33,3 +34,4 @@ public class LC_8 {
         }
         return (int) result;
     }
+}
