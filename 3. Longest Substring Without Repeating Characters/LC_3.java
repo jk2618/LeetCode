@@ -19,3 +19,4 @@ public class LC_3 {
         }
         return maxLength;
     }
+}
